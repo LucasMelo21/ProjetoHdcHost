@@ -90,3 +90,49 @@ nav{
 .main-banner p{
     font-size: 32px;
 }
+
+/* services */
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #000;
+}
+
+.fa-rocket{
+    color: #1deee3;
+    text-shadow: #000 1px 2px 3px;
+    
+}
+
+.fa-comments{
+    color: #ef8f29;
+    text-shadow: #000 2px 2px 3px;
+}
+
+.services-container h3{
+    margin-bottom: 20px;
+}
+
+.services-container p{
+    line-height: 24px;
+}
