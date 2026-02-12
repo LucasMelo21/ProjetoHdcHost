@@ -355,6 +355,7 @@ footer{
 
     .main-banner p {
         padding: 0 2rem;
+        font-size: 28px;
     }
 
     .services-container ul{
@@ -396,5 +397,80 @@ footer{
     .contact-container textarea{
         width: 100%;
         margin: 10px 0;
+    }
+}
+
+/* celular 400px */
+@media (max-width:400px){
+    .navbar-container{
+        padding: 0 1rem;
+    }
+    .navbar-itens li{
+        font-size: 11px;
+        margin-left: 8px;
+    }
+
+    .main-banner h1{
+        font-size: 44px;
+    }
+
+    .main-banner p{
+        font-size: 24px;
+    }
+
+    .search-domain-container h2{
+        font-size: 26px;
+    }
+
+    .search-domain-container p{
+        font-size: 18px;
+    }
+
+    .search-domain-container input[type="text"]{
+        font-size: 15px;
+    }
+
+    .search-domain-container input[type="submit"]{
+        font-size: 15px;
+    }
+
+    .contact-container h2{
+        font-size: 27px;
+    }
+    .contact-container p{
+        font-size: 18px;
+    }
+
+    .contact-container input[type="submit"]{
+        margin-top: 20px;
+    }
+}
+
+/* celular 350px */
+@media (max-width:350px){
+    .navbar-container{
+        padding: 0 1rem;
+    }
+
+    .navbar-itens li{
+        font-size: 9px;
+        margin-left: 0px;
+        padding: 2px 0;
+    }
+
+    .search-domain-container h2{
+        font-size: 24px;
+    }
+
+    .search-domain-container p{
+        font-size: 15px;
+    }
+
+    .search-domain-container input[type="text"]{
+        font-size: 12px;
+    }
+
+    .search-domain-container input[type="submit"]{
+        font-size: 12px;
     }
 }
